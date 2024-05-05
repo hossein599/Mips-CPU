@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj CPU -o C:/CPU/CPU/CPU/increament.tfi -lib work C:/CPU/CPU/CPU//increment.v -module increament -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

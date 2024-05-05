@@ -1,0 +1,1 @@
+vhdtdtfi -lang verilog -prj CPU -o C:/CPU/CPU/CPU/Instruction.tfi -lib work C:/CPU/CPU/CPU//instruction_memory.v -module Instruction -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

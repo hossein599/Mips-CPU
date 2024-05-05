@@ -1,0 +1,7 @@
+vhdtdtfi -lang verilog -prj CPU -o C:/CPUBuild/CPU/CPU/instruction_memory.tfi -lib work C:/CPUBuild/CPU/CPU//instruction_memory.v -module instruction_memory -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lib work C:/CPUBuild/CPU/CPU/instruction_memory.v -lang verilog -prj CPU -o instruction_memory.spl -module instruction_memory -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 instruction_memory.spl C:/CPUBuild/CPU/CPU/instruction_memory.sym 
+vhdtdtfi -lang verilog -prj CPU -o C:/CPUBuild/CPU/CPU/instruction_memory.tfi -lib work C:/CPUBuild/CPU/CPU//instruction_memory.v -module instruction_memory -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lib work C:/CPUBuild/CPU/CPU/instruction_memory.v -lang verilog -prj CPU -o instruction_memory.spl -module instruction_memory -template C:/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 instruction_memory.spl C:/CPUBuild/CPU/CPU/instruction_memory.sym 
+vhdtdtfi -lang verilog -prj CPU -o C:/CPU/CPU/CPU/instruction_memory.tfi -lib work C:/CPU/CPU/CPU//instruction_memory.v -module instruction_memory -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

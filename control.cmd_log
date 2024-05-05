@@ -1,0 +1,2 @@
+vhdtdtfi -lang verilog -prj CPU -o C:/CPUBuild/CPU/CPU/control.tfi -lib work C:/CPUBuild/CPU/CPU//control.v -module control -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 
+vhdtdtfi -lang verilog -prj CPU -o C:/CPU/CPU/CPU/control.tfi -lib work C:/CPU/CPU/CPU//control.v -module control -template C:/Xilinx/14.7/ISE_DS/ISE//data/tfi.tft -deleteonerror 

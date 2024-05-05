@@ -1,0 +1,15 @@
+
+
+
+// Instantiate the module
+alu instance_name (
+    .alu_result(alu_result), 
+    .zero_flag(zero_flag), 
+    .carry(carry), 
+    .a(a), 
+    .b(b), 
+    .control(control), 
+    .c_in(c_in)
+    );
+
+

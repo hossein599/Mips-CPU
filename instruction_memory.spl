@@ -1,0 +1,10 @@
+[Inputs]
+reset
+clk
+=read_address[7:0]=
+[Outputs]
+=instruction[31:0]=
+[BiDir]
+[ATTRIBUTES]
+VeriModel instruction_memory
+

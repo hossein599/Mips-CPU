@@ -1,0 +1,16 @@
+
+
+
+// Instantiate the module
+reg_bank instance_name (
+    .read_data1(read_data1), 
+    .read_data2(read_data2), 
+    .write_data(write_data), 
+    .read_register1(read_register1), 
+    .read_register2(read_register2), 
+    .write_register(write_register), 
+    .reset(reset), 
+    .write(write)
+    );
+
+

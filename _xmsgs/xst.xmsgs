@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="HDLCompiler" num="413" delta="old" >"C:\CPU\CPU\CPU\increment.v" Line 28: Result of <arg fmt="%d" index="1">9</arg>-bit expression is truncated to fit in <arg fmt="%d" index="2">8</arg>-bit target.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\CPU\CPU\CPU\CPU.v</arg>&quot; line <arg fmt="%d" index="2">34</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">pc</arg>&gt; of block &lt;<arg fmt="%s" index="4">program_counter</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">CPU</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\CPU\CPU\CPU\CPU.v</arg>&quot; line <arg fmt="%d" index="2">42</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">increament</arg>&gt; of block &lt;<arg fmt="%s" index="4">increament</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">CPU</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\CPU\CPU\CPU\CPU.v</arg>&quot; line <arg fmt="%d" index="2">49</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">instruction_memory</arg>&gt; of block &lt;<arg fmt="%s" index="4">instruction_memory</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">CPU</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\CPU\CPU\CPU\CPU.v</arg>&quot; line <arg fmt="%d" index="2">57</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">mux5bit</arg>&gt; of block &lt;<arg fmt="%s" index="4">mux5bit</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">CPU</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\CPU\CPU\CPU\CPU.v</arg>&quot; line <arg fmt="%d" index="2">65</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">control</arg>&gt; of block &lt;<arg fmt="%s" index="4">control</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">CPU</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\CPU\CPU\CPU\CPU.v</arg>&quot; line <arg fmt="%d" index="2">79</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">registers</arg>&gt; of block &lt;<arg fmt="%s" index="4">reg_bank</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">CPU</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\CPU\CPU\CPU\CPU.v</arg>&quot; line <arg fmt="%d" index="2">91</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">mux_alusrc</arg>&gt; of block &lt;<arg fmt="%s" index="4">mux8bit</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">CPU</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\CPU\CPU\CPU\CPU.v</arg>&quot; line <arg fmt="%d" index="2">99</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">fulladder</arg>&gt; of block &lt;<arg fmt="%s" index="4">fulladder</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">CPU</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\CPU\CPU\CPU\CPU.v</arg>&quot; line <arg fmt="%d" index="2">106</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">alu</arg>&gt; of block &lt;<arg fmt="%s" index="4">alu</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">CPU</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\CPU\CPU\CPU\CPU.v</arg>&quot; line <arg fmt="%d" index="2">117</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">mux_fulladder</arg>&gt; of block &lt;<arg fmt="%s" index="4">mux8bit</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">CPU</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\CPU\CPU\CPU\CPU.v</arg>&quot; line <arg fmt="%d" index="2">125</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">data_memory</arg>&gt; of block &lt;<arg fmt="%s" index="4">data_memory</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">CPU</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\CPU\CPU\CPU\CPU.v</arg>&quot; line <arg fmt="%d" index="2">136</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">mux_jump</arg>&gt; of block &lt;<arg fmt="%s" index="4">mux8bit</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">CPU</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+<msg type="warning" file="Xst" num="2972" delta="new" >&quot;<arg fmt="%s" index="1">C:\CPU\CPU\CPU\CPU.v</arg>&quot; line <arg fmt="%d" index="2">144</arg>. All outputs of instance &lt;<arg fmt="%s" index="3">mux_memtoreg</arg>&gt; of block &lt;<arg fmt="%s" index="4">mux8bit</arg>&gt; are unconnected in block &lt;<arg fmt="%s" index="5">CPU</arg>&gt;. Underlying logic will be removed.
+</msg>
+
+</messages>
+

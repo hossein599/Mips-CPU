@@ -1,0 +1,12 @@
+
+
+
+// Instantiate the module
+mux5bit instance_name (
+    .mux_out(mux_out), 
+    .in1(in1), 
+    .in2(in2), 
+    .control(control)
+    );
+
+

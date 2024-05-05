@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/CPU/CPU/CPU/CPU_TB_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="CPU_TB" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="3" />
+   <wvobject fp_name="/CPU_TB/reset" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_TB/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/CPU_TB/cpu/registers/regbank" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">regbank[31:0,7:0]</obj_property>
+      <obj_property name="ObjectShortName">regbank[31:0,7:0]</obj_property>
+      <wvobject fp_name="/CPU_TB/cpu/registers/regbank[31]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[31,7:0]</obj_property>
+         <obj_property name="ObjectShortName">regbank[31,7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CPU_TB/cpu/registers/regbank[30]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[30,7:0]</obj_property>
+         <obj_property name="ObjectShortName">regbank[30,7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CPU_TB/cpu/registers/regbank[29]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[29,7:0]</obj_property>
+         <obj_property name="ObjectShortName">regbank[29,7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CPU_TB/cpu/registers/regbank[28]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[28,7:0]</obj_property>
+         <obj_property name="ObjectShortName">regbank[28,7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CPU_TB/cpu/registers/regbank[27]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[27,7:0]</obj_property>
+         <obj_property name="ObjectShortName">regbank[27,7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CPU_TB/cpu/registers/regbank[26]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[26,7:0]</obj_property>
+         <obj_property name="ObjectShortName">regbank[26,7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CPU_TB/cpu/registers/regbank[25]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[25,7:0]</obj_property>
+         <obj_property name="ObjectShortName">regbank[25,7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CPU_TB/cpu/registers/regbank[24]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[24,7:0]</obj_property>
+         <obj_property name="ObjectShortName">regbank[24,7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CPU_TB/cpu/registers/regbank[23]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[23,7:0]</obj_property>
+         <obj_property name="ObjectShortName">regbank[23,7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CPU_TB/cpu/registers/regbank[22]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[22,7:0]</obj_property>
+         <obj_property name="ObjectShortName">regbank[22,7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CPU_TB/cpu/registers/regbank[21]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[21,7:0]</obj_property>
+         <obj_property name="ObjectShortName">regbank[21,7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CPU_TB/cpu/registers/regbank[20]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[20,7:0]</obj_property>
+         <obj_property name="ObjectShortName">regbank[20,7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CPU_TB/cpu/registers/regbank[19]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[19,7:0]</obj_property>
+         <obj_property name="ObjectShortName">regbank[19,7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CPU_TB/cpu/registers/regbank[18]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[18,7:0]</obj_property>
+         <obj_property name="ObjectShortName">regbank[18,7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CPU_TB/cpu/registers/regbank[17]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[17,7:0]</obj_property>
+         <obj_property name="ObjectShortName">regbank[17,7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CPU_TB/cpu/registers/regbank[16]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[16,7:0]</obj_property>
+         <obj_property name="ObjectShortName">regbank[16,7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CPU_TB/cpu/registers/regbank[15]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[15,7:0]</obj_property>
+         <obj_property name="ObjectShortName">regbank[15,7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CPU_TB/cpu/registers/regbank[14]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[14,7:0]</obj_property>
+         <obj_property name="ObjectShortName">regbank[14,7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CPU_TB/cpu/registers/regbank[13]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[13,7:0]</obj_property>
+         <obj_property name="ObjectShortName">regbank[13,7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CPU_TB/cpu/registers/regbank[12]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[12,7:0]</obj_property>
+         <obj_property name="ObjectShortName">regbank[12,7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CPU_TB/cpu/registers/regbank[11]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[11,7:0]</obj_property>
+         <obj_property name="ObjectShortName">regbank[11,7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CPU_TB/cpu/registers/regbank[10]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[10,7:0]</obj_property>
+         <obj_property name="ObjectShortName">regbank[10,7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CPU_TB/cpu/registers/regbank[9]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[9,7:0]</obj_property>
+         <obj_property name="ObjectShortName">regbank[9,7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CPU_TB/cpu/registers/regbank[8]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[8,7:0]</obj_property>
+         <obj_property name="ObjectShortName">regbank[8,7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CPU_TB/cpu/registers/regbank[7]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[7,7:0]</obj_property>
+         <obj_property name="ObjectShortName">regbank[7,7:0]</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CPU_TB/cpu/registers/regbank[6]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[6,7:0]</obj_property>
+         <obj_property name="ObjectShortName">regbank[6,7:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CPU_TB/cpu/registers/regbank[5]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[5,7:0]</obj_property>
+         <obj_property name="ObjectShortName">regbank[5,7:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CPU_TB/cpu/registers/regbank[4]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[4,7:0]</obj_property>
+         <obj_property name="ObjectShortName">regbank[4,7:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CPU_TB/cpu/registers/regbank[3]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[3,7:0]</obj_property>
+         <obj_property name="ObjectShortName">regbank[3,7:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CPU_TB/cpu/registers/regbank[2]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[2,7:0]</obj_property>
+         <obj_property name="ObjectShortName">regbank[2,7:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CPU_TB/cpu/registers/regbank[1]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[1,7:0]</obj_property>
+         <obj_property name="ObjectShortName">regbank[1,7:0]</obj_property>
+         <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      </wvobject>
+      <wvobject fp_name="/CPU_TB/cpu/registers/regbank[0]" type="array" db_ref_id="1">
+         <obj_property name="ElementShortName">[0,7:0]</obj_property>
+         <obj_property name="ObjectShortName">regbank[0,7:0]</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>

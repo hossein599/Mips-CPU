@@ -1,0 +1,41 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/CPU/CPU/CPU/CPU_TB_isim_beh.exe" -prj "C:/CPU/CPU/CPU/CPU_TB_beh.prj" "work.CPU_TB" "work.glbl" 
+ISim P.20131013 (signature 0x8ef4fb42)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Analyzing Verilog file "C:/CPU/CPU/CPU/reg_bank.v" into library work
+Analyzing Verilog file "C:/CPU/CPU/CPU/program_counter.v" into library work
+Analyzing Verilog file "C:/CPU/CPU/CPU/mux8bit.v" into library work
+Analyzing Verilog file "C:/CPU/CPU/CPU/mux5bit.v" into library work
+Analyzing Verilog file "C:/CPU/CPU/CPU/instruction_memory.v" into library work
+Analyzing Verilog file "C:/CPU/CPU/CPU/increment.v" into library work
+Analyzing Verilog file "C:/CPU/CPU/CPU/fulladder.v" into library work
+Analyzing Verilog file "C:/CPU/CPU/CPU/data_memory.v" into library work
+Analyzing Verilog file "C:/CPU/CPU/CPU/control.v" into library work
+Analyzing Verilog file "C:/CPU/CPU/CPU/alu.v" into library work
+Analyzing Verilog file "C:/CPU/CPU/CPU/CPU.v" into library work
+Analyzing Verilog file "C:/CPU/CPU/CPU/CPU_TB.v" into library work
+Analyzing Verilog file "C:/Xilinx/14.7/ISE_DS/ISE//verilog/src/glbl.v" into library work
+Starting static elaboration
+Completed static elaboration
+Fuse Memory Usage: 65352 KB
+Fuse CPU Usage: 296 ms
+Compiling module program_counter
+Compiling module increament
+Compiling module instruction_memory
+Compiling module mux5bit
+Compiling module control
+Compiling module reg_bank
+Compiling module mux8bit
+Compiling module fulladder
+Compiling module alu
+Compiling module data_memory
+Compiling module CPU
+Compiling module CPU_TB
+Compiling module glbl
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 13 Verilog Units
+Built simulation executable C:/CPU/CPU/CPU/CPU_TB_isim_beh.exe
+Fuse Memory Usage: 74124 KB
+Fuse CPU Usage: 468 ms

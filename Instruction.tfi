@@ -1,0 +1,12 @@
+
+
+
+// Instantiate the module
+Instruction instance_name (
+    .instruction_out(instruction_out), 
+    .read_address(read_address), 
+    .reset(reset), 
+    .clk(clk)
+    );
+
+

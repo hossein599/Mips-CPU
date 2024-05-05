@@ -1,0 +1,312 @@
+Release 14.7 - xst P.20131013 (nt)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.14 secs
+ 
+--> Reading design: CPU.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "CPU.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "CPU"
+Output Format                      : NGC
+Target Device                      : xc6slx9-3-tqg144
+
+---- Source Options
+Top Module Name                    : CPU
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\CPU\CPU\CPU\reg_bank.v" into library work
+Parsing module <reg_bank>.
+Analyzing Verilog file "C:\CPU\CPU\CPU\program_counter.v" into library work
+Parsing module <program_counter>.
+Analyzing Verilog file "C:\CPU\CPU\CPU\mux8bit.v" into library work
+Parsing module <mux8bit>.
+Analyzing Verilog file "C:\CPU\CPU\CPU\mux5bit.v" into library work
+Parsing module <mux5bit>.
+Analyzing Verilog file "C:\CPU\CPU\CPU\instruction_memory.v" into library work
+Parsing module <instruction_memory>.
+Analyzing Verilog file "C:\CPU\CPU\CPU\increment.v" into library work
+Parsing module <increament>.
+Analyzing Verilog file "C:\CPU\CPU\CPU\fulladder.v" into library work
+Parsing module <fulladder>.
+Analyzing Verilog file "C:\CPU\CPU\CPU\data_memory.v" into library work
+Parsing module <data_memory>.
+Analyzing Verilog file "C:\CPU\CPU\CPU\control.v" into library work
+Parsing module <control>.
+Analyzing Verilog file "C:\CPU\CPU\CPU\alu.v" into library work
+Parsing module <alu>.
+Analyzing Verilog file "C:\CPU\CPU\CPU\CPU.v" into library work
+Parsing module <CPU>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <CPU>.
+
+Elaborating module <program_counter>.
+
+Elaborating module <increament>.
+WARNING:HDLCompiler:413 - "C:\CPU\CPU\CPU\increment.v" Line 28: Result of 9-bit expression is truncated to fit in 8-bit target.
+
+Elaborating module <instruction_memory>.
+
+Elaborating module <mux5bit>.
+
+Elaborating module <control>.
+
+Elaborating module <reg_bank>.
+
+Elaborating module <mux8bit>.
+
+Elaborating module <fulladder>.
+
+Elaborating module <alu>.
+
+Elaborating module <data_memory>.
+WARNING:Xst:2972 - "C:\CPU\CPU\CPU\CPU.v" line 34. All outputs of instance <pc> of block <program_counter> are unconnected in block <CPU>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\CPU\CPU\CPU\CPU.v" line 42. All outputs of instance <increament> of block <increament> are unconnected in block <CPU>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\CPU\CPU\CPU\CPU.v" line 49. All outputs of instance <instruction_memory> of block <instruction_memory> are unconnected in block <CPU>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\CPU\CPU\CPU\CPU.v" line 57. All outputs of instance <mux5bit> of block <mux5bit> are unconnected in block <CPU>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\CPU\CPU\CPU\CPU.v" line 65. All outputs of instance <control> of block <control> are unconnected in block <CPU>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\CPU\CPU\CPU\CPU.v" line 79. All outputs of instance <registers> of block <reg_bank> are unconnected in block <CPU>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\CPU\CPU\CPU\CPU.v" line 91. All outputs of instance <mux_alusrc> of block <mux8bit> are unconnected in block <CPU>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\CPU\CPU\CPU\CPU.v" line 99. All outputs of instance <fulladder> of block <fulladder> are unconnected in block <CPU>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\CPU\CPU\CPU\CPU.v" line 106. All outputs of instance <alu> of block <alu> are unconnected in block <CPU>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\CPU\CPU\CPU\CPU.v" line 117. All outputs of instance <mux_fulladder> of block <mux8bit> are unconnected in block <CPU>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\CPU\CPU\CPU\CPU.v" line 125. All outputs of instance <data_memory> of block <data_memory> are unconnected in block <CPU>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\CPU\CPU\CPU\CPU.v" line 136. All outputs of instance <mux_jump> of block <mux8bit> are unconnected in block <CPU>. Underlying logic will be removed.
+WARNING:Xst:2972 - "C:\CPU\CPU\CPU\CPU.v" line 144. All outputs of instance <mux_memtoreg> of block <mux8bit> are unconnected in block <CPU>. Underlying logic will be removed.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <CPU>.
+    Related source file is "C:\CPU\CPU\CPU\CPU.v".
+    Summary:
+	no macro.
+Unit <CPU> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <CPU> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block CPU, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : CPU.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx9tqg144-3 
+
+
+Slice Logic Utilization: 
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:      0
+   Number with an unused Flip Flop:       0  out of      0         
+   Number with an unused LUT:             0  out of      0         
+   Number of fully used LUT-FF pairs:     0  out of      0         
+   Number of unique control sets:         0
+
+IO Utilization: 
+ Number of IOs:                           2
+ Number of bonded IOBs:                   0  out of    102     0%  
+
+Specific Feature Utilization:
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+No clock signals found in this design
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: No path found
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: No path found
+   Maximum combinational path delay: No path found
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 12.00 secs
+Total CPU time to Xst completion: 11.63 secs
+ 
+--> 
+
+Total memory usage is 172132 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   14 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

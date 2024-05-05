@@ -1,0 +1,12 @@
+
+
+
+// Instantiate the module
+program_counter instance_name (
+    .pc_out(pc_out), 
+    .pc_in(pc_in), 
+    .reset(reset), 
+    .clk(clk)
+    );
+
+
